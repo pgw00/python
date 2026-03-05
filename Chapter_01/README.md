@@ -27,7 +27,7 @@ cd Chapter_01
 env\Scripts\python.exe E01_1.py
 ```
 
-![E01_1 preview](E01_1.jpg)
+![E01_1 preview](E01/E01_1.jpg)
 
 ---
 
@@ -53,7 +53,7 @@ cd Chapter_01
 env\Scripts\python.exe E01_2.py
 ```
 
-![E01_2 preview](E01_2.jpg)
+![E01_2 preview](E01/E01_2.jpg)
 
 ---
 
@@ -78,7 +78,7 @@ cd Chapter_01
 env\Scripts\python.exe E01_3.py
 ```
 
-![E01_3 preview](E01_3.png)
+![E01_3 preview](E01/E01_3.png)
 
 ---
 
