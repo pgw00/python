@@ -136,13 +136,13 @@ cv.destroyAllWindows()
 
 주의: 브러시 크기는 1~15 범위로 제한되어 있다.
 
-실행
+# 실행
 
 ```powershell
 cd Chapter_01
 env\Scripts\python.exe E01_2.py
 ```
-결과
+# 결과
 
 ![E01_2 preview](E01/E01_2.jpg)
 
