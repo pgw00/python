@@ -26,6 +26,7 @@
 cd Chapter_01
 env\Scripts\python.exe E01_1.py
 ```
+결과
 
 ![E01_1 preview](E01/E01_1.jpg)
 
@@ -52,6 +53,7 @@ env\Scripts\python.exe E01_1.py
 cd Chapter_01
 env\Scripts\python.exe E01_2.py
 ```
+결과
 
 ![E01_2 preview](E01/E01_2.jpg)
 
@@ -77,6 +79,7 @@ env\Scripts\python.exe E01_2.py
 cd Chapter_01
 env\Scripts\python.exe E01_3.py
 ```
+결과
 
 ![E01_3 preview](E01/E01_3.png)
 
