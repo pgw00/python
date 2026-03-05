@@ -178,13 +178,13 @@ cv.destroyAllWindows()
 - `cv.imshow("ROI", roi)`로 별도 창에 표시
 - 키 처리: `r` → 리셋, `s` → 파일 저장, `q` → 종료
 
-실행
+# 실행
 
 ```powershell
 cd Chapter_01
 env\Scripts\python.exe E01_3.py
 ```
-결과
+# 결과
 
 ![E01_3 preview](E01/E01_3.png)
 
