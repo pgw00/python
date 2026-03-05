@@ -4,6 +4,9 @@ import numpy as np
 import time
 
 path = "soccer.jpg"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+path = os.path.join(script_dir, "soccer.jpg")
+
 
 # 이미지 로드
 img = cv.imread(path, cv.IMREAD_COLOR)
