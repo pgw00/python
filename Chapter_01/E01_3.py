@@ -28,25 +28,18 @@ img = cv.imread(path, cv.IMREAD_COLOR)
 if img is None:
     raise FileNotFoundError(f"이미지를 찾을 수 없습니다: {os.path.abspath(path)}")
 
-
 # 원본 이미지를 복사하여 별도로 저장 (ROI 선택 시 원본 유지 목적)
 orig = img.copy()
-
 # 현재 마우스로 드래그 중인지 여부를 저장하는 변수
 drawing = False
-
 # 마우스 클릭 시작 좌표를 저장할 변수 초기화
 ix = iy = -1
-
 # ROI 영역의 좌표를 저장할 변수 초기화
 rx1 = ry1 = rx2 = ry2 = 0
-
 # ROI가 선택되었는지 여부를 나타내는 변수
 selected = False
-
 # 추출된 ROI 이미지를 저장할 변수
 roi = None
-
 
 # 마우스 이벤트를 처리하는 함수 정의
 def mouse_callback(event, x, y, flags, param):
@@ -160,10 +153,8 @@ while True:
 
             # ROI 이미지를 파일로 저장
             cv.imwrite(fname, roi)
-
             # 저장된 파일의 절대 경로를 출력
             print(f"Saved ROI to {os.path.abspath(fname)}")
-
 
 # 모든 OpenCV 창을 닫기
 cv.destroyAllWindows()
