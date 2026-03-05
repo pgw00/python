@@ -68,7 +68,7 @@ cv.imwrite("combined_output.jpg", combined)
 print("Saved: gray_output.jpg, combined_output.jpg")
 ```
 
-설명
+# 설명
 
 이미지를 로드한 뒤 원본 컬러 영상과 그레이스케일 영상을 나란히 보여준다. 이미지 로드, 색상 변환, 배열 결합, 화면 표시의 기본 흐름을 학습한다.
 
@@ -81,7 +81,7 @@ print("Saved: gray_output.jpg, combined_output.jpg")
 - `cv.resize(..., fx, fy)` — 표시용으로 축소(선택사항)
 - `cv.imshow()` / `cv.waitKey()` — 화면 출력 및 키 입력 대기
 
-실행
+# 실행
 
 ```powershell
 cd Chapter_01
